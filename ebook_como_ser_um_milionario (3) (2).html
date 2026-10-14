@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Como Ser um Milionário — E-book</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#0b1020;color:#eef2ff}
+.wrap{max-width:900px;margin:auto;padding:28px}
+.card{background:#151d35;border:1px solid #2b375b;border-radius:18px;padding:28px;margin:18px 0}
+h1{font-size:42px;margin-bottom:8px} h2{color:#7dd3fc}
+p,li{font-size:18px;line-height:1.65}
+.cover{text-align:center;padding:60px 25px;background:linear-gradient(135deg,#172554,#0f766e);border-radius:22px}
+input,button{padding:13px;border-radius:10px;border:0;font-size:16px}
+button{cursor:pointer;background:#38bdf8;color:#07111f;font-weight:bold}
+#ebook{display:none}.error{color:#fca5a5}
+a{color:#7dd3fc}
+.small{font-size:14px;color:#b6c2df}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="card" id="login">
+  <div class="cover">
+    <h1>COMO SER UM MILIONÁRIO</h1>
+    <p>Um guia prático sobre mentalidade, estudos, redes sociais, inteligência social e tecnologia.</p>
+    <p><b>Área protegida</b></p>
+    <input id="pass" type="password" placeholder="Digite a senha">
+    <button onclick="entrar()">Entrar</button>
+    <p id="erro" class="error"></p>
+  </div>
+</div>
+
+<div id="ebook">
+<div class="card"><h1>Como Ser um Milionário</h1><p><b>Guia completo com 70 capítulos.</b> Conteúdo sobre mentalidade, dinheiro, inteligência social, redes sociais, criação de valor, tecnologia e Inteligência Artificial.</p></div>
+<div class="card"><h2>1. A verdade sobre ficar milionário</h2><p>Não existe fórmula garantida. O caminho envolve aprender, criar valor, controlar riscos e manter consistência por muitos anos.</p></div>
+<div class="card"><h2>2. Mentalidade de crescimento</h2><p>Troque a ideia de 'não consigo' por 'ainda não sei'. Procure habilidades que possam ser aprendidas e aperfeiçoadas.</p></div>
+<div class="card"><h2>3. Defina seu objetivo</h2><p>Escreva quanto dinheiro deseja construir, em quanto tempo e por quê. Um objetivo concreto facilita decidir o que fazer hoje.</p></div>
+<div class="card"><h2>4. Tenha uma visão de longo prazo</h2><p>Resultados financeiros importantes geralmente são construídos aos poucos. Evite depender de promessas de dinheiro rápido.</p></div>
+<div class="card"><h2>5. Aprenda a controlar gastos</h2><p>Antes de pensar em ganhar muito, entenda para onde seu dinheiro está indo. Registre entradas e saídas.</p></div>
+<div class="card"><h2>6. Crie um orçamento</h2><p>Separe dinheiro para necessidades, objetivos, lazer e uma reserva. Ajuste os valores conforme sua realidade.</p></div>
+<div class="card"><h2>7. Evite compras por impulso</h2><p>Espere antes de comprar algo que não estava planejado. Pergunte se aquilo realmente resolve uma necessidade.</p></div>
+<div class="card"><h2>8. Aprenda sobre juros</h2><p>Entender juros ajuda a perceber como dívidas podem crescer e como o tempo pode afetar o dinheiro guardado ou investido.</p></div>
+<div class="card"><h2>9. Construa uma reserva</h2><p>Uma reserva financeira pode ajudar a lidar com despesas inesperadas sem depender imediatamente de crédito.</p></div>
+<div class="card"><h2>10. Aprenda uma habilidade valiosa</h2><p>Escolha uma habilidade útil e pratique regularmente: programação, design, edição, comunicação, vendas ou tecnologia.</p></div>
+<div class="card"><h2>11. Aprenda a vender</h2><p>Vender não significa enganar. Significa entender uma necessidade e explicar claramente como sua solução pode ajudar.</p></div>
+<div class="card"><h2>12. Aprenda a negociar</h2><p>Negociação envolve ouvir, apresentar argumentos, entender limites e buscar acordos justos.</p></div>
+<div class="card"><h2>13. Comunicação é dinheiro</h2><p>Saber explicar uma ideia de forma simples pode abrir oportunidades em projetos, estudos, trabalho e negócios.</p></div>
+<div class="card"><h2>14. Fale em público</h2><p>Treine apresentações curtas. Comece explicando um assunto para uma pessoa e depois aumente o público.</p></div>
+<div class="card"><h2>15. Inteligência social</h2><p>Observe, escute e tente compreender diferentes pontos de vista. Relacionamentos de confiança são construídos com respeito.</p></div>
+<div class="card"><h2>16. Saiba ouvir</h2><p>Escutar sem interromper ajuda a entender problemas reais e pode melhorar tanto amizades quanto relações profissionais.</p></div>
+<div class="card"><h2>17. Faça boas perguntas</h2><p>Perguntas bem feitas revelam necessidades, oportunidades e informações que você não teria sozinho.</p></div>
+<div class="card"><h2>18. Crie uma boa reputação</h2><p>Ser pontual, honesto e cumprir o que promete pode valer mais do que tentar parecer importante.</p></div>
+<div class="card"><h2>19. Networking</h2><p>Conheça pessoas com interesses parecidos, participe de comunidades e compartilhe conhecimento sem esperar algo imediatamente em troca.</p></div>
+<div class="card"><h2>20. Encontre mentores</h2><p>Procure professores, profissionais ou criadores de conteúdo que ensinem de forma responsável e tenham experiência real.</p></div>
+<div class="card"><h2>21. Aprenda com erros</h2><p>Em vez de esconder um erro, descubra o que aconteceu, o que pode ser corrigido e como evitar repeti-lo.</p></div>
+<div class="card"><h2>22. Transforme problemas em oportunidades</h2><p>Observe problemas frequentes ao seu redor. Muitas ideias de produtos e serviços começam tentando resolver uma dificuldade.</p></div>
+<div class="card"><h2>23. Crie valor</h2><p>Pergunte: 'Que problema consigo resolver melhor, mais rápido ou de forma mais simples?'</p></div>
+<div class="card"><h2>24. Comece pequeno</h2><p>Um primeiro projeto não precisa ser perfeito. Começar pequeno permite aprender sem assumir riscos desnecessários.</p></div>
+<div class="card"><h2>25. Crie projetos próprios</h2><p>Faça algo que possa mostrar: um site, vídeo, desenho, aplicativo, canal educativo ou outro projeto adequado às suas habilidades.</p></div>
+<div class="card"><h2>26. Monte um portfólio</h2><p>Guarde seus melhores projetos em uma página ou pasta organizada para demonstrar o que você sabe fazer.</p></div>
+<div class="card"><h2>27. Redes sociais como vitrine</h2><p>Use as redes para mostrar aprendizado, projetos e ideias. Consistência costuma ser mais útil do que tentar viralizar a qualquer custo.</p></div>
+<div class="card"><h2>28. Mostre seu rosto com segurança</h2><p>Aparecer pode aumentar a conexão com o público, mas nunca publique endereço, escola, documentos, senhas ou outras informações privadas.</p></div>
+<div class="card"><h2>29. Escolha um nicho</h2><p>Escolha um tema específico para facilitar que as pessoas entendam sobre o que é seu conteúdo.</p></div>
+<div class="card"><h2>30. Crie conteúdo útil</h2><p>Ensine algo, mostre um processo, explique um conceito ou compartilhe uma experiência de aprendizado.</p></div>
+<div class="card"><h2>31. Tenha uma identidade</h2><p>Use uma apresentação, estilo de comunicação e tema coerentes para que seu conteúdo seja reconhecível.</p></div>
+<div class="card"><h2>32. Aprenda edição de vídeo</h2><p>Cortes, legendas, áudio e organização podem deixar um conteúdo mais fácil de acompanhar.</p></div>
+<div class="card"><h2>33. Aprenda criação de imagens</h2><p>Design básico ajuda a produzir capas, apresentações, posts e materiais digitais mais claros.</p></div>
+<div class="card"><h2>34. Aprenda escrita para internet</h2><p>Títulos claros, frases curtas e uma boa estrutura ajudam o leitor a entender sua mensagem.</p></div>
+<div class="card"><h2>35. Entenda atenção</h2><p>Comece explicando rapidamente qual problema o conteúdo resolve e entregue o que prometeu.</p></div>
+<div class="card"><h2>36. Não compre seguidores</h2><p>Números artificiais não garantem uma comunidade real. Priorize pessoas interessadas no que você publica.</p></div>
+<div class="card"><h2>37. Construa confiança</h2><p>Não invente resultados, clientes, diplomas ou experiências. Transparência protege sua reputação.</p></div>
+<div class="card"><h2>38. Aprenda inteligência artificial</h2><p>Aprenda conceitos básicos de IA, automação, escrita de prompts, análise de informação e uso responsável de ferramentas.</p></div>
+<div class="card"><h2>39. Estude IA gratuitamente</h2><p>Use cursos e materiais confiáveis para aprender fundamentos antes de procurar ferramentas avançadas.</p></div>
+<div class="card"><h2>40. IA como assistente</h2><p>Use IA para organizar ideias, estudar, revisar textos, criar planos e aprender, sempre conferindo informações importantes.</p></div>
+<div class="card"><h2>41. Não dependa da IA</h2><p>A melhor combinação é conhecimento humano + ferramentas. Aprenda a verificar respostas e identificar erros.</p></div>
+<div class="card"><h2>42. Automação</h2><p>Tarefas repetitivas podem ser organizadas com ferramentas digitais. Antes de automatizar, entenda o processo manual.</p></div>
+<div class="card"><h2>43. Tecnologia e oportunidades</h2><p>Conhecimentos digitais podem ser úteis em muitas áreas. Escolha uma área e aprofunde-se em vez de tentar aprender tudo ao mesmo tempo.</p></div>
+<div class="card"><h2>44. Aprenda programação</h2><p>Programação desenvolve lógica e pode permitir criar sites, aplicativos, automações e outros projetos.</p></div>
+<div class="card"><h2>45. Aprenda inglês</h2><p>Grande parte do conteúdo tecnológico e empresarial está disponível em inglês. Aprender o idioma pode ampliar suas fontes de estudo.</p></div>
+<div class="card"><h2>46. Leia mais</h2><p>Livros, artigos e materiais educativos podem apresentar ideias que você não encontraria apenas nas redes sociais.</p></div>
+<div class="card"><h2>47. Faça anotações</h2><p>Registre conceitos importantes e transforme o que aprendeu em exemplos próprios.</p></div>
+<div class="card"><h2>48. Pratique o que estudou</h2><p>Conhecimento sem prática é difícil de transformar em habilidade. Crie pequenos desafios para aplicar o conteúdo.</p></div>
+<div class="card"><h2>49. Crie uma rotina</h2><p>Escolha horários realistas para estudar, criar e revisar seus objetivos.</p></div>
+<div class="card"><h2>50. Evite distrações</h2><p>Durante o estudo, reduza notificações e mantenha apenas as ferramentas necessárias abertas.</p></div>
+<div class="card"><h2>51. Organize suas tarefas</h2><p>Escolha as tarefas mais importantes do dia e termine algumas antes de começar muitas outras.</p></div>
+<div class="card"><h2>52. Aprenda a dizer não</h2><p>Recusar oportunidades que não combinam com seus objetivos pode proteger seu tempo.</p></div>
+<div class="card"><h2>53. Cuide da sua energia</h2><p>Sono adequado, alimentação equilibrada, movimento e pausas ajudam a manter disposição para estudar e trabalhar.</p></div>
+<div class="card"><h2>54. Tenha paciência</h2><p>Comparar seu começo com o resultado de outra pessoa pode gerar expectativas irreais. Compare seu progresso com o seu próprio ponto de partida.</p></div>
+<div class="card"><h2>55. Cuidado com promessas de riqueza</h2><p>Desconfie de quem promete ganhos garantidos, resultados instantâneos ou fórmulas secretas.</p></div>
+<div class="card"><h2>56. Entenda riscos</h2><p>Toda oportunidade financeira pode envolver riscos. Quanto maior a promessa de retorno, maior deve ser sua atenção.</p></div>
+<div class="card"><h2>57. Estude investimentos antes de investir</h2><p>Aprenda conceitos como risco, retorno, diversificação, liquidez e custos antes de tomar decisões.</p></div>
+<div class="card"><h2>58. Não coloque tudo em uma única opção</h2><p>Diversificação pode reduzir a dependência de um único ativo ou fonte de renda, embora não elimine riscos.</p></div>
+<div class="card"><h2>59. Aprenda sobre impostos</h2><p>Conhecer regras básicas de impostos e obrigações pode ajudar a organizar uma atividade financeira ou empresarial.</p></div>
+<div class="card"><h2>60. Crie mais de uma habilidade</h2><p>Combinar habilidades pode criar uma vantagem. Exemplo: edição de vídeo + comunicação + IA.</p></div>
+<div class="card"><h2>61. Pense como um solucionador</h2><p>Quando surgir um problema, divida-o em partes menores e procure soluções possíveis.</p></div>
+<div class="card"><h2>62. Teste ideias</h2><p>Antes de gastar muito, faça um teste pequeno para descobrir se existe interesse real.</p></div>
+<div class="card"><h2>63. Escute seus clientes</h2><p>Feedback ajuda a descobrir o que funciona e o que precisa melhorar.</p></div>
+<div class="card"><h2>64. Melhore seu produto</h2><p>Use as críticas úteis para fazer versões melhores em vez de tentar acertar tudo na primeira tentativa.</p></div>
+<div class="card"><h2>65. Aprenda atendimento</h2><p>Responder com educação, clareza e rapidez pode melhorar muito a experiência de quem compra ou acompanha seu trabalho.</p></div>
+<div class="card"><h2>66. Crie uma oferta clara</h2><p>Explique o que você oferece, para quem é e qual problema pretende resolver.</p></div>
+<div class="card"><h2>67. Aprenda métricas</h2><p>Observe números que realmente ajudam: visualizações relevantes, retenção, respostas, conversões e satisfação.</p></div>
+<div class="card"><h2>68. Construa comunidade</h2><p>Responda comentários, faça perguntas e valorize pessoas que acompanham seu conteúdo.</p></div>
+<div class="card"><h2>69. Proteja suas contas</h2><p>Use senhas fortes e diferentes, autenticação em dois fatores quando disponível e nunca compartilhe códigos de acesso.</p></div>
+<div class="card"><h2>70. Seu próximo passo</h2><p>Escolha uma habilidade, defina uma meta pequena, estude hoje e coloque algo em prática. O objetivo é transformar conhecimento em ação.</p></div>
+<div class="card"><h2>Estude Inteligência Artificial</h2>
+<p>Para continuar seus estudos, acesse uma plataforma de cursos de Inteligência Artificial:</p>
+<p><a href="https://www.coursera.org/browse/computer-science/artificial-intelligence" target="_blank">Acessar estudos de Inteligência Artificial</a></p>
+</div></div>
+
+<script>
+function entrar(){
+ const senha=document.getElementById('pass').value;
+ if(senha==='10209'){
+   document.getElementById('login').style.display='none';
+   document.getElementById('ebook').style.display='block';
+ }else{
+   document.getElementById('erro').textContent='Senha incorreta.';
+ }
+}
+</script>
+</body>
+</html>
